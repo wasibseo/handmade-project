@@ -1,0 +1,149 @@
+*{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 100px;
+    background-color:white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+.logo{
+    height: 30px;
+    width: 80px;
+   background-size: cover;
+}
+.border {
+    border:2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+.add-first {
+
+    font-size: 1rem;
+    margin: left 15px;}
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+
+   }
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+  
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    }
+
+.search-input{
+    width: 100%;
+    font: size 1rem;
+    border:none;
+
+}
+.add-icon{
+    width: 45px;
+    display: flex;
+}
+
+/**box 4**/
+span{
+    font-size: 0.7rem;
+    
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box6**/
+.bi bi-search {
+    font-size: 38px;
+}
+.panel {
+
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+  background-color:darkred;
+color: #f3f3f3;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.panel-ops p{
+ 
+    align-items: center;
+   justify-content: center;
+
+    
+}
+.panel-ops {
+    width: 80%;
+}
+.box{
+    height: 350px;
+
+    background-size: cover;
+    width: 23%;
+    background-color: snow;
+    padding: 20px 0px 15px;
+}
+
+.box1-img{
+    background-image: url(/hb-1.webp);
+    height: 200px;
+   
+}
+.box2-img{
+    background-image: url(/hb-2.webp);
+    height: 200px;
+   
+}
+.card-group{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.last-img{
+
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+.main-last{
+
+    margin-right: 35%;
+}
+.p{
+    font-weight: bolder;
+}
+.foot-panel{
+    height: 500px;
+    background-color: darkred;
+    
+
+    color: #f3f3f3;
+}
+.post{
+    float: left;
+}
